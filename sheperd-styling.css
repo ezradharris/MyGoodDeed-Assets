@@ -128,3 +128,6 @@
 .shepherd-footer .shepherd-progress {
    font-size: 0.8rem;
 }
+.shepherd-header {
+    background-color: var(--sl-color-primary-600)
+}
