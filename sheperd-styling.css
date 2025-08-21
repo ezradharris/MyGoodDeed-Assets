@@ -95,14 +95,13 @@
 .shepherd-button * {
     pointer-events: all;
 }
-.sheperd-footer {
+.shepherd-footer {
     gap: 8px
 }
-.sheperd-title {
+.shepherd-title {
     color: rgba(0, 0, 0, .75);
     flex: 1 0 auto;
     font-size: 1rem;
-    font-weight: 400;
     margin: 0;
     padding: 0;
     display: flex;
