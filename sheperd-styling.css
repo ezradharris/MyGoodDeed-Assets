@@ -196,14 +196,14 @@
 
 /* Secondary Button Variant */
 .shepherd-button-secondary {
-  background: var(--sl-color-neutral-100);
-  border-color: var(--sl-color-neutral-300);
-  color: var(--sl-color-neutral-700);
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
 }
 
 .shepherd-button-secondary:hover {
-  background: var(--sl-color-neutral-200);
-  border-color: var(--sl-color-neutral-400);
+  background: transparent;
+  border-color: transparent;
 }
 
 /* Success Button Variant */
