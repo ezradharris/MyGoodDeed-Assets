@@ -35,7 +35,8 @@
 .shepherd-button:focus,
 .shepherd-button:active,
 .shepherd-button:visited,
-.shepherd-button:disabled {
+.shepherd-button:disabled,
+.shepherd-button:not(:disabled):hover {
     background: transparent;
     border: none;
     color: transparent;
