@@ -79,11 +79,11 @@
 }
 
 /* Ensure Shoelace buttons inside shepherd text are properly styled */
-.shepherd-text sl-button {
-    /* Restore normal Shoelace button styling */
+.shepherd-text {
     all: revert;
     display: inline-flex;
-    margin: 0.25rem;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 /* Make sure the invisible shepherd button doesn't interfere with Shoelace button clicks */
