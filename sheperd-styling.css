@@ -99,31 +99,32 @@
     gap: 8px
 }
 .shepherd-title {
-    color: rgba(0, 0, 0, .75);
-    flex: 1 0 auto;
-    font-size: 1rem;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: flex-start;
-    align-items: baseline;
-    gap: 8px;
-    font-weight: 600;
+   color: rgba(0, 0, 0, .75);
+   flex: 1 0 auto;
+   font-size: 1rem;
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: flex-start;
+   align-items: baseline;
+   gap: 8px;
+   font-weight: 600;
 }
 
 .shepherd-footer {
-  align-items: center;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 0.75rem 0.75rem;
+   gap: 8px;
+   align-items: center;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   display: flex;
+   justify-content: space-between;
+   padding: 0 0.75rem 0.75rem;
+}
 
-  .shepherd-button:last-child {
-    margin-right: 0;
-  }
+.shepherd-footer .shepherd-button:last-child {
+   margin-right: 0;
+}
 
-  .shepherd-progress {
-    font-size: 0.8rem;
-  }
+.shepherd-footer .shepherd-progress {
+   font-size: 0.8rem;
 }
