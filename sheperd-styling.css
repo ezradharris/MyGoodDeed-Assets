@@ -110,6 +110,7 @@
   font-size: var(--sl-font-size-medium);
   line-height: 1.6;
   padding: var(--sl-spacing-large);
+  background-color: white;
 }
 
 .shepherd-text p {
