@@ -133,34 +133,34 @@
 }
 
 /* Button Styling (Shoelace-inspired) */
+
 .shepherd-button {
-  align-items: center;
-  background: var(--sl-color-neutral-0);
-  border: 1px solid var(--sl-color-neutral-300);
-  border-radius: var(--sl-border-radius-medium);
-  color: var(--sl-color-neutral-700);
-  cursor: pointer;
-  display: inline-flex;
-  font-family: var(--sl-font-sans);
-  font-size: var(--sl-font-size-medium);
-  font-weight: var(--sl-font-weight-semibold);
-  gap: var(--sl-spacing-2x-small);
-  justify-content: center;
-  line-height: calc(var(--sl-input-height-medium) - var(--sl-input-border-width) * 2);
-  min-height: 2.5rem;
-  outline: none;
-  padding: var(--sl-spacing-small) var(--sl-spacing-medium);
-  position: relative;
-  text-decoration: none;
-  transition: all var(--sl-transition-fast) ease;
-  user-select: none;
-  vertical-align: middle;
-  white-space: nowrap;
+    align-items: center;
+    border: none;
+    color: transparent;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: var(--sl-font-sans);
+    font-size: var(--sl-font-size-medium);
+    font-weight: var(--sl-font-weight-semibold);
+    gap: var(--sl-spacing-2x-small);
+    justify-content: center;
+    line-height: calc(var(--sl-input-height-medium) - var(--sl-input-border-width) * 2);
+    min-height: 2.5rem;
+    outline: none;
+    padding: var(--sl-spacing-small) var(--sl-spacing-medium);
+    position: relative;
+    text-decoration: none;
+    transition: all var(--sl-transition-fast) ease;
+    user-select: none;
+    vertical-align: middle;
+    white-space: nowrap;
+    background-color: transparent;
 }
 
 .shepherd-button:hover {
-  background: var(--sl-color-neutral-50);
-  border-color: var(--sl-color-neutral-400);
+  color: transparent;
+  background: transparent;
 }
 
 .shepherd-button:focus {
