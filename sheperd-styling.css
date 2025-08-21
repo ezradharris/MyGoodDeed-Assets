@@ -95,3 +95,6 @@
 .shepherd-button * {
     pointer-events: all;
 }
+.sheperd-footer {
+    gap: 8px
+}
