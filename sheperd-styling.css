@@ -81,9 +81,10 @@
 /* Ensure Shoelace buttons inside shepherd text are properly styled */
 .shepherd-text {
     all: revert;
-    display: inline-flex;
     padding-bottom: 10px;
     padding-top: 10px;
+    align-content: flex-start;
+    margin: 1rem;
 }
 
 /* Make sure the invisible shepherd button doesn't interfere with Shoelace button clicks */
