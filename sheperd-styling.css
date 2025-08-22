@@ -96,7 +96,7 @@
 .shepherd-button * {
     pointer-events: all;
 }
-.shepherd-has-title .shepherd-content .shepherd-header {
+.shepherd-header {
    color: rgba(0, 0, 0, .75);
    flex: 1 0 auto;
    font-size: 1rem;
@@ -107,6 +107,9 @@
    align-items: baseline;
    gap: 8px;
    font-weight: 600;
+}
+.shepherd-has-title .shepherd-content .shepherd-header {
+    background-color: var(--sl-color-primary-600)
 }
 
 .shepherd-footer {
@@ -125,9 +128,6 @@
 
 .shepherd-footer .shepherd-progress {
    font-size: 0.8rem;
-}
-.shepherd-header {
-    background-color: var(--sl-color-primary-600)
 }
 .highlight-span {
     background: var(--sl-color-primary-700);
