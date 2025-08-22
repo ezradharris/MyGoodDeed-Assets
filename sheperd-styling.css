@@ -96,7 +96,7 @@
 .shepherd-button * {
     pointer-events: all;
 }
-.shepherd-header {
+.sheperd-title {
    color: rgba(0, 0, 0, .75);
    flex: 1 0 auto;
    font-size: 1rem;
