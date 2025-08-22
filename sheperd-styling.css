@@ -95,9 +95,6 @@
 .shepherd-button * {
     pointer-events: all;
 }
-.shepherd-footer {
-    gap: 8px
-}
 .shepherd-title {
    color: rgba(0, 0, 0, .75);
    flex: 1 0 auto;
